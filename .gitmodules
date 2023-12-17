@@ -1,0 +1,3 @@
+[submodule "pandorabot-chatbot-code"]
+	path = pandorabot-chatbot-code
+	url = git@github.com:xavierloeraflores/pandorabot-chatbot-code.git
