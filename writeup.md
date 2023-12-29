@@ -4,6 +4,16 @@
 
 ## Computing Job Types
 
+The chatbot is designed in a ay to suggest one of the following 5 computing job types to the user:
+
+- UI/UX Designer
+- Frontend Developer
+- Project Manager
+- Backend Developer
+- System Architect
+
+These career paths were choses because it gives the user a wide range of options depending on whether they would prefer to focus on design, business, or coding. The chatbot will suggest one of these 5 career paths to the user based on their responses to the chatbot's questions.
+
 ## Chatbot Code
 
 ## Training Cases and AIML Enhancements
