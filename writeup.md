@@ -147,3 +147,5 @@ For the most part, the platform strengths allow developers to work entirely with
 While a developer could potentially work entirely from within the Pandorabot editor, it is not ideal. There are several key developer experience features that come with developing natively on device that allow developers to have more control over their projects. Features such as choosing which files to commit to a git repository, having a more robust code editor, supporting more file types are important for developer experience.
 
 ## Chatbot Monitoring and Maintenance
+
+The Chatbot can be monitored to by seeing how many students complete the chatbot experience and how many students are satisfied with the result given by the chatbot. Using this information, developers can introduce new questions and even career paths to cover more areas of interest and provide more accurate results for students.
