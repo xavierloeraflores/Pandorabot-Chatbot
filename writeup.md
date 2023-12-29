@@ -16,6 +16,114 @@ These career paths were choses because it gives the user a wide range of options
 
 ## Chatbot Code
 
+udc.aiml
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>Hello! Welcome! Congrats on all the hard work you have put in so
+        far as you are nearing you degree completion!
+        I can help you figure out a great career path post graduation.
+        May I <set name="topic">help</set> you?
+        </template>
+    </category>
+
+<topic name =""></topic>
+<topic name="help">
+  <category>
+      <pattern>^ YES ^</pattern>
+      <that></that>
+      <template>Great! I can help you find a great <set name="topic">career</set>!
+      Do you like coding, design, or business the most?
+      </template>
+  </category>
+
+  <category>
+      <pattern>^ NO ^</pattern>
+      <template>No Problem! It sounds like you have it all figured <set name="topic">out</set>!</template>
+  </category>
+</topic>
+
+<topic name="career">
+    <category>
+        <pattern>^ DESIGN ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the design side?
+        <learn>
+            <category>
+                <pattern>^ YES ^</pattern>
+                <template>Great!You should check<set name="topic">out</set> a career as a: UX/UI Designer!
+                </template>
+            </category>
+            <category>
+                <pattern>^ NO ^</pattern>
+                <template>No Problem! You should check<set name="topic">out</set> a career as a: Frontend Developer!</template>
+            </category>
+        </learn>
+        </template>
+    </category>
+    <category>
+        <pattern>^ BUSINESS ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the business side?
+        <learn>
+            <category>
+                <pattern>^ YES ^</pattern>
+                <template>Great!You should check<set name="topic">out</set> a career as a: Project Manager!
+                </template>
+            </category>
+            <category>
+                <pattern>^ NO ^</pattern>
+                <template>No Problem! You should check<set name="topic">out</set> a career as a: Systems Architect!</template>
+            </category>
+        </learn>
+    </template>
+    </category>
+    <category>
+        <pattern>^ CODING ^</pattern>
+        <template>Great. Yes or no. Do you want your career to purely focus on the coding side?
+        <learn>
+            <category>
+                <pattern>^ YES ^</pattern>
+                <template>Great!You should check<set name="topic">out</set> a career as a: Backend Developmer!
+                </template>
+            </category>
+            <category>
+                <pattern>^ NO ^</pattern>
+                <template>No Problem! You should check<set name="topic">out</set> a career as a: Systems Architect!</template>
+            </category>
+        </learn>
+    </template>
+    </category>
+</topic>
+
+
+
+<topic name="out">
+    <category>
+        <pattern>*</pattern>
+        <template>Thank you for using our service!<set name="topic"></set>
+        </template>
+    </category>
+</topic>
+
+
+</aiml>
+
+```
+
+interests.set
+
+```
+[["Coding"], ["Design"], ["Business"]]
+```
+
+careers.set
+
+```
+[["UI\/UX Designer"], ["Project Manager"], ["Frontend Developer"], ["Fullstack Developer"], ["Backend Developer"]]
+```
+
 ## Training Cases and AIML Enhancements
 
 ## Installation Manual
