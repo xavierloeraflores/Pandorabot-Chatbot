@@ -1,6 +1,7 @@
 # Write up
 
 ## Chatbot Functionality
+The chatbot will be able to help seniors seeking career advice by asking them a series of questions about their interests to find a good potential career path. Firstly, the chatbot will greet the user explaining its purposes before beginning to evaluate the user. The chatbot will be able to suggest one of the following 5 career paths to the user based on their responses to questions relating to how much they are interested in code, design, and business. Firstly, the bot will ask the user which of the 3 interests areas intrigue the user the most. Afterwards, the chatbot will ask if they would like to focus primarily on that interest area if they would like their role to be more diverse. Based on that response, the chatbot will suggest one of the 5 career paths that best match the user's interests. Finally, the chatbot will thank the user for using the service and repeat the cycle if the user would like to try again.
 
 ## Computing Job Types
 
