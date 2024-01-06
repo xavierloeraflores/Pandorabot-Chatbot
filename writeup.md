@@ -14,7 +14,7 @@ The chatbot is designed in a ay to suggest one of the following 5 computing job 
 - Backend Developer
 - System Architect
 
-These career paths were choses because it gives the user a wide range of options depending on whether they would prefer to focus on design, business, or coding. The chatbot will suggest one of these 5 career paths to the user based on their responses to the chatbot's questions.
+These career paths were chosen because it gives the user a wide range of options depending on whether they would prefer to focus on design, business, or coding. The chatbot will suggest one of these 5 career paths to the user based on their responses to the chatbot's questions.
 
 ## Chatbot Code
 
@@ -191,8 +191,8 @@ For the most part, the platform strengths allow developers to work entirely with
 - The code editor is very basic and doesn't provide any robust error messages or auto-completion.
 - The platform doesn't support uploading or viewing files types such as .md .pdf and .txt.
 
-While a developer could potentially work entirely from within the Pandorabot editor, it is not ideal. There are several key developer experience features that come with developing natively on device that allow developers to have more control over their projects. Features such as choosing which files to commit to a git repository, having a more robust code editor, supporting more file types are important for developer experience.
+While a developer could potentially work entirely from within the Pandorabot editor, it is not ideal. There are several key developer experience features that come with developing natively on devices that allow developers to have more control over their projects. Features such as choosing which files to commit to a git repository, having a more robust code editor, and supporting more file types are important for developer experience.
 
 ## Chatbot Monitoring and Maintenance
 
-The Chatbot can be monitored to by seeing how many students complete the chatbot experience and how many students are satisfied with the result given by the chatbot. Using this information, developers can introduce new questions and even career paths to cover more areas of interest and provide more accurate results for students.
+The Chatbot can be monitored by seeing how many students complete the chatbot experience and how many students are satisfied with the result given by the chatbot. Using this information, developers can introduce new questions and even career paths to cover more areas of interest and provide more accurate results for students.
