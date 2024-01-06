@@ -165,6 +165,16 @@ The rest of the training cases would go through a similar question and answer pr
 
 ## Installation Manual
 
+Steps to access the Chatbot:
+
+1. Visit https://pandorabots.com/
+2. Create an account or login to an existing account.
+3. Visit https://home.pandorabots.com/dash/bot-directory# .
+4. Search for "C951- Xavier Loera Flores" in the search bar.
+5. Select the chatbot titled "C951- Xavier Loera Flores" with a description of "Career Assistance Chatbot created by Xavier Loera Flores".
+6. A chat window will appear on the right side of the screen.
+7. Type a message to begin the chatbot experience.
+
 ## Pandorabot Platform Strengths and Weaknesses
 
 ### Strengths
