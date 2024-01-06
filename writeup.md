@@ -1,6 +1,7 @@
 # Write up
 
 ## Chatbot Functionality
+
 The chatbot will be able to help seniors seeking career advice by asking them a series of questions about their interests to find a good potential career path. Firstly, the chatbot will greet the user explaining its purposes before beginning to evaluate the user. The chatbot will be able to suggest one of the following 5 career paths to the user based on their responses to questions relating to how much they are interested in code, design, and business. Firstly, the bot will ask the user which of the 3 interests areas intrigue the user the most. Afterwards, the chatbot will ask if they would like to focus primarily on that interest area if they would like their role to be more diverse. Based on that response, the chatbot will suggest one of the 5 career paths that best match the user's interests. Finally, the chatbot will thank the user for using the service and repeat the cycle if the user would like to try again.
 
 ## Computing Job Types
@@ -126,6 +127,41 @@ careers.set
 ```
 
 ## Training Cases and AIML Enhancements
+
+Training cases were chosen to cover the following scenarios:
+
+- A student in need of help who is passionate in coding and would like to focus on coding
+- A student in need of help who is passionate in coding but doesn't want to purely focus on coding
+- A student in need of help who is passionate in design and would like to focus on design
+- A student in need of help who is passionate in design but doesn't want to purely focus on design
+- A student in need of help who is passionate in business and would like to focus on business
+- A student in need of help who is passionate in business but doesn't want to purely focus on business
+
+These training cases were chosen because they covered the 3 main interest areas and the 2 possible responses for each interest area. The training cases were also chosen to cover the 5 possible career paths that the chatbot can suggest to the user.
+The chatbot utilizes AIML to enhance the user experience by learning about the user's main area of interest and then by learning about whether the user would like to focus on that area of interest or not. The chatbot then uses this information to suggest one of the 5 career paths to the user.
+
+In our first test case, the chatbot would first ask "Hello! Welcome! Congrats on all the hard work you have put in so far as you are nearing you degree completion! I can help you figure out a great career path post graduation. May I help you?" If the user responds with "YES", the chatbot would then ask "Great! I can help you find a great career! Do you like coding, design, or business the most?". If the user responds with "CODING", the chatbot would then ask "Great. Yes or no. Do you want your career to purely focus on the coding side?". If the user responds with "YES", the chatbot would then suggest "Great!You should check out a career as a: Backend Developer!". At this point, the chatbot would thank the user for using the service and repeat the cycle if the user would like to try again.
+
+The rest of the training cases would go through a similar question and answer process with the chatbot. The following are the results of all the training cases:
+
+- A student in need of help who is passionate in coding and would like to focus on coding
+  - Input: "YES" "CODING" "YES"
+  - Output: "Great!You should check out a career as a: Backend Developer!"
+- A student in need of help who is passionate in coding but doesn't want to purely focus on coding
+  - Input: "YES" "CODING" "NO"
+  - Output: "No Problem! You should check out a career as a: Systems Architect!"
+- A student in need of help who is passionate in design and would like to focus on design
+  - Input: "YES" "DESIGN" "YES"
+  - Output: "Great!You should check out a career as a: UX/UI Designer!"
+- A student in need of help who is passionate in design but doesn't want to purely focus on design
+  - Input: "YES" "DESIGN" "NO"
+  - Output: "No Problem! You should check out a career as a: Frontend Developer!"
+- A student in need of help who is passionate in business and would like to focus on business
+  - Input: "YES" "BUSINESS" "YES"
+  - Output: "Great!You should check out a career as a: Project Manager!"
+- A student in need of help who is passionate in business but doesn't want to purely focus on business
+  - Input: "YES" "BUSINESS" "NO"
+  - Output: "No Problem! You should check out a career as a: Systems Architect!"
 
 ## Installation Manual
 
