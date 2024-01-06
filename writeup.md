@@ -87,7 +87,7 @@ udc.aiml
         <learn>
             <category>
                 <pattern>^ YES ^</pattern>
-                <template>Great!You should check<set name="topic">out</set> a career as a: Backend Developmer!
+                <template>Great!You should check<set name="topic">out</set> a career as a: Backend Developer!
                 </template>
             </category>
             <category>
